@@ -1,3 +1,5 @@
+<div align="center">
+  
 # 🐍 SnakeBot - Intelligent Autonomous Snake AI
 
 [![Python 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
@@ -5,8 +7,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GMBSells](https://img.shields.io/badge/Powered%20by-GMBSells-blueviolet.svg)](https://github.com/gmbsells)
 [![AeryData](https://img.shields.io/badge/Created%20by-AeryData-informational.svg)](https://github.com/AeryData)
-
+</div>
 A sophisticated autonomous Snake game powered by advanced AI pathfinding algorithms. Watch as the AI navigates the board, strategically hunts food, and employs intelligent trap-avoidance tactics—all without human intervention.
+
+---
+
 
 **🤖 Built in collaboration with [GMBSells](https://github.com/gmbsells) organization**
 
@@ -154,14 +159,14 @@ AeryData/SnakeBot/
 
 ### Key Classes
 
-**`Colors`**
+**Colors**
 - Centralized color palette for all game elements
 
-**`GameConstants`**
+**GameConstants**
 - Game dimensions and physics constants
 - Movement directions and cell state values
 
-**`SnakeGame`**
+**SnakeGame**
 - **Initialization**: `__init__`, `_initialize_display`
 - **Rendering**: `_draw_food`, `_draw_snake_part`
 - **Game Logic**: `is_cell_free`, `is_move_possible`, `make_move`, `new_food`
